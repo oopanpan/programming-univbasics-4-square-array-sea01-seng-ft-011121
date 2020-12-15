@@ -2,9 +2,9 @@
 
 def square_array(array)
   final_array = []
-  array.length.times do |i|
+  array.length.times { |i|
     final_array.push(array[i] **2)
-  end
+  }
   final_array
 end
 
